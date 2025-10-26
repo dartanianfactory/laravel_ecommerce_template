@@ -1,9 +1,9 @@
 :root {
     --color-bg: rgba(17, 17, 101, 1);
     --color-container: rgba(255, 255, 255, 1);
-    --color-block: rgba(255, 255, 255, 1);
+    --color-block: rgb(219, 219, 219);
     --color-input: rgb(149, 149, 190);
-    --color-block-inner: rgba(94, 74, 74, 1);
+    --color-block-inner: rgb(239, 241, 114);
     --color-text: rgba(255, 255, 255, 1);
     --color-text-light: rgba(255, 255, 255, 1);
     --color-text-dark: rgba(36, 36, 36, 1);

@@ -5,3 +5,22 @@
 .dark-text {
     color: var(--color-text-dark);
 }
+
+.small-header {
+    font-size: clamp(16px, 1.2vw, 20px);
+    font-weight: 600;
+}
+
+.middle-header {
+    font-size: clamp(18px, 1.4vw, 22px);
+    font-weight: 600;
+}
+
+.big-header {
+    font-size: clamp(20px, 1.6vw, 24px);
+    font-weight: 600;
+}
+
+.block-color {
+    background-color: var(--color-block);
+}

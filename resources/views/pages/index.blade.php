@@ -1,5 +1,8 @@
 @extends('layouts.index')
 
 @section('content')
-    <h3>Контент магазина</h3>
+    @include('components.info.description')
+    @include('components.store.catalog')
+    @include('components.info.partners')
+    @include('components.info.reasons')
 @endsection

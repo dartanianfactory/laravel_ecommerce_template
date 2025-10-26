@@ -19,7 +19,7 @@
     <body class="grid h-full grid-rows-[100px_auto_max-content] p-[var(--p-default)] gap-[var(--gap-default)]">
         @include('components.base.header')
 
-        <main class="grid h-full grid-flow-row bg-[var(--color-block)] p-[var(--p-default)]">
+        <main class="grid h-full grid-flow-row gap-[var(--gap-default)] bg-[var(--color-container)] p-[var(--p-default)]">
             @yield('content')
         </main>
 
